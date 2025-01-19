@@ -1,26 +1,26 @@
-# Fraud Detection System
+ Fraud Detection System
 
 This repository contains a Jupyter Notebook that implements a Fraud Detection System. The system is designed to detect fraudulent activities using data preprocessing, feature engineering, and machine learning models. The project showcases techniques to analyze transactional data and identify potentially fraudulent cases.
 
-## Features
+ Features
 
 - **Data Preprocessing**: Handling missing values, scaling features, and encoding categorical variables.
 - **Feature Engineering**: Extracting meaningful features from raw data to enhance model performance.
 - **Machine Learning Models**: Training and evaluating algorithms like Logistic Regression, Decision Trees, Random Forest, or any other specified models.
 - **Evaluation Metrics**: Measuring model performance using precision, recall, F1-score, ROC-AUC, and confusion matrices.
 
-## Files
+ Files
 
 - `_Task 3 Fraud Detection System.ipynb`: Main notebook containing the fraud detection workflow.
 - `README.md`: Documentation for understanding and running the project.
 
-## Prerequisites
+ Prerequisites
 
 - Python 3.7 or later
 - Jupyter Notebook
 - Required Python libraries (see below)
 
-## Installation
+ Installation
 
 1. Clone this repository:
    ```bash
@@ -35,7 +35,7 @@ This repository contains a Jupyter Notebook that implements a Fraud Detection Sy
    pip install -r requirements.txt
    ```
 
-## Usage
+ Usage
 
 1. Launch Jupyter Notebook:
    ```bash
@@ -44,7 +44,7 @@ This repository contains a Jupyter Notebook that implements a Fraud Detection Sy
 2. Open the notebook `_Task 3 Fraud Detection System.ipynb`.
 3. Follow the steps outlined in the notebook to preprocess data, train models, and evaluate performance.
 
-## Dependencies
+ Dependencies
 
 The following libraries are required:
 - pandas
@@ -58,21 +58,28 @@ You can install them using the following command:
 pip install pandas numpy scikit-learn matplotlib seaborn
 ```
 
-## Workflow
+ Workflow
 
-1. **Load Dataset**: Load the transactional dataset and analyze it.
+1. Load Dataset:
 
-2. **Data Preprocessing**: Handle missing values, outliers, and scale numerical features.
+Load the transactional dataset and analyze it.
 
-3. **Feature Engineering**: Generate new features that help in distinguishing fraudulent transactions.
+2. Data Preprocessing: 
+Handle missing values, outliers, and scale numerical features.
 
-4. **Model Training**: Train machine learning models to detect fraud.
+3. Feature Engineering:
+Generate new features that help in distinguishing fraudulent transactions.
 
-5. **Model Evaluation**: Use metrics like precision, recall, F1-score, and ROC-AUC to assess performance.
+4. Model Training: 
+Train machine learning models to detect fraud.
 
-6. **Results Visualization**: Visualize important features and model predictions.
+5. Model Evaluation:
+Use metrics like precision, recall, F1-score, and ROC-AUC to assess performance.
 
-## Example Output
+6. Results Visualization:
+Visualize important features and model predictions.
+
+ Example Output
 
 Include a summary of results, such as model precision, recall, and F1-score achieved during evaluation:
 
